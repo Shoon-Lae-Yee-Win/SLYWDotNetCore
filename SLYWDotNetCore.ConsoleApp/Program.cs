@@ -10,7 +10,10 @@ AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
 //adoDotNetExample.Create("title", "author", "content");
 //adoDotNetExample.Update(12, "test title", "test author", "test content");
 //adoDotNetExample.Delete(13);
-adoDotNetExample.Edit(13);
-adoDotNetExample.Edit(1);
+//adoDotNetExample.Edit(13);
+//adoDotNetExample.Edit(1);
+
+DapperExample dapperExample = new DapperExample();
+dapperExample.Run();
 
 Console.ReadKey();
