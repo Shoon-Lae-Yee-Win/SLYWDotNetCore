@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SLYWDotNetCore.ConsoleApp
+namespace SLYWDotNetCore.ConsoleApp.Services
 {
     internal static class ConnectionStrings
     {
@@ -16,6 +16,7 @@ namespace SLYWDotNetCore.ConsoleApp
             InitialCatalog = "DotNetTrainingBatch4", // DataBase Name
             UserID = "sa", //User Name
             Password = "sa123@", // User Password
+            TrustServerCertificate = true,
         };
     }
 }

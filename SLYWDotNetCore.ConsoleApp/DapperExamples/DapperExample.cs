@@ -6,8 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Dapper;
+using SLYWDotNetCore.ConsoleApp.Dtos;
+using SLYWDotNetCore.ConsoleApp.Services;
 
-namespace SLYWDotNetCore.ConsoleApp
+namespace SLYWDotNetCore.ConsoleApp.DapperExamples
 {
     internal class DapperExample
     {
@@ -27,7 +29,7 @@ namespace SLYWDotNetCore.ConsoleApp
             using IDbConnection db = new SqlConnection(ConnectionStrings.SqlConnectionStringBuilder.ConnectionString);
             //List<dynamic> lst = db.Query("Select * From Tbl_Blog").ToList();
             List<BlogDto> lst = db.Query<BlogDto>("Select * From Tbl_Blog").ToList();
-            
+
             foreach (BlogDto item in lst)
             {
                 Console.WriteLine(item.BlogId);
@@ -48,13 +50,13 @@ namespace SLYWDotNetCore.ConsoleApp
             using IDbConnection db = new SqlConnection(ConnectionStrings.SqlConnectionStringBuilder.ConnectionString);
             var item = db.Query<BlogDto>("Select * From Tbl_Blog Where Blogid = @BlogId", new BlogDto { BlogId = id }).FirstOrDefault();
 
-            if(item is null)
+            if (item is null)
             {
                 Console.WriteLine("No Data Found.");
                 return;
             }
 
-            
+
             Console.WriteLine(item.BlogId);
             Console.WriteLine(item.BlogTitle);
             Console.WriteLine(item.BlogAuthor);

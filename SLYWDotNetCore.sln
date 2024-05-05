@@ -3,12 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLYWDotNetCore.ConsoleApp", "SLYWDotNetCore.ConsoleApp\SLYWDotNetCore.ConsoleApp.csproj", "{CD980DA7-8609-4B51-B64B-37806B23912E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SLYWDotNetCore.ConsoleApp", "SLYWDotNetCore.ConsoleApp\SLYWDotNetCore.ConsoleApp.csproj", "{CD980DA7-8609-4B51-B64B-37806B23912E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{93BA1173-88D2-4F11-9D96-C4B482DBFECD}"
 	ProjectSection(SolutionItems) = preProject
+		DotNetTrainingBatch4.sql = DotNetTrainingBatch4.sql
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLYWDotNetCore.RestApi", "SLYWDotNetCore.RestApi\SLYWDotNetCore.RestApi.csproj", "{01A814CE-623B-4FF8-8012-B387285A3F9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +23,10 @@ Global
 		{CD980DA7-8609-4B51-B64B-37806B23912E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD980DA7-8609-4B51-B64B-37806B23912E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD980DA7-8609-4B51-B64B-37806B23912E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01A814CE-623B-4FF8-8012-B387285A3F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01A814CE-623B-4FF8-8012-B387285A3F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01A814CE-623B-4FF8-8012-B387285A3F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01A814CE-623B-4FF8-8012-B387285A3F9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
