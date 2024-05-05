@@ -1,1 +1,3 @@
-Scaffold-DbContext "Server=.;Database=DotNetTrainingBatch4;TrustServerCertificate=true;Trusted_Connection=True;User ID=sa;Password=sa123@" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Context DotNetTrainingBatchAppDbContext
+2024-04-09 [Console App]<br>
+2024-04-10 [Ado.Net CRUD]<br>
+2024-04-22 [Dapper CRUD]<br>
