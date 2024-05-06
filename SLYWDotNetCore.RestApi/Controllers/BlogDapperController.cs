@@ -134,7 +134,7 @@ namespace SLYWDotNetCore.RestApi.Controllers
 
             using IDbConnection db = new SqlConnection(ConnectionStrings.SqlConnectionStringBuilder.ConnectionString);
 
-            int result = db.Execute(query, query);
+            int result = db.Execute(query, new BlogModel { BlogId = id});
             string message = result > 0 ? "Deleting Successful." : "Deleting Failed.";
             return Ok(message);
         }

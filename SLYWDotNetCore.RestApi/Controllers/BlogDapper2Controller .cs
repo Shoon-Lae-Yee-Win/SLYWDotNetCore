@@ -1,5 +1,6 @@
 ﻿using System.Data;
 using System.Data.SqlClient;
+using System.Reflection.Metadata;
 using Dapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -134,11 +135,9 @@ namespace SLYWDotNetCore.RestApi.Controllers
                 return NotFound("no data found");
             }
             string query = @"DELETE FROM [dbo].[Tbl_Blog]
-            WHERE BlogId = @BlogId";
-
-            using IDbConnection db = new SqlConnection(ConnectionStrings.SqlConnectionStringBuilder.ConnectionString);
-
-            int result = db.Execute(query, query);
+            WHERE BlogId = @BlogId"
+            ;
+            int result = _dapperService.Execute(query, new BlogModel { BlogId = id });
             string message = result > 0 ? "Deleting Successful." : "Deleting Failed.";
             return Ok(message);
         }
