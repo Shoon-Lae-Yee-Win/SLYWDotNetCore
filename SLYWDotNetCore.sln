@@ -13,7 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SLYWDotNetCore.RestApi", "SLYWDotNetCore.RestApi\SLYWDotNetCore.RestApi.csproj", "{01A814CE-623B-4FF8-8012-B387285A3F9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLYWDotNetCore.Shared", "SLYWDotNetCore.Shared\SLYWDotNetCore.Shared.csproj", "{0D3577B8-C16C-4AF4-8C5F-D2BBE5C995B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SLYWDotNetCore.Shared", "SLYWDotNetCore.Shared\SLYWDotNetCore.Shared.csproj", "{0D3577B8-C16C-4AF4-8C5F-D2BBE5C995B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLYWDotNetCore.RestApiWithNLayer", "SLYWDotNetCore.RestApiWithNLayer\SLYWDotNetCore.RestApiWithNLayer.csproj", "{26BC1E55-B771-4837-A5D0-2450CD93BC87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLYWDotNetCore.ConsoleAppHttpClient", "SLYWDotNetCore.ConsoleAppHttpClient\SLYWDotNetCore.ConsoleAppHttpClient.csproj", "{03C42E93-1F9F-41B7-8704-B09A4067AAD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{0D3577B8-C16C-4AF4-8C5F-D2BBE5C995B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D3577B8-C16C-4AF4-8C5F-D2BBE5C995B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D3577B8-C16C-4AF4-8C5F-D2BBE5C995B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26BC1E55-B771-4837-A5D0-2450CD93BC87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26BC1E55-B771-4837-A5D0-2450CD93BC87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26BC1E55-B771-4837-A5D0-2450CD93BC87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26BC1E55-B771-4837-A5D0-2450CD93BC87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03C42E93-1F9F-41B7-8704-B09A4067AAD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C42E93-1F9F-41B7-8704-B09A4067AAD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C42E93-1F9F-41B7-8704-B09A4067AAD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C42E93-1F9F-41B7-8704-B09A4067AAD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
