@@ -15,13 +15,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SLYWDotNetCore.RestApi", "S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SLYWDotNetCore.Shared", "SLYWDotNetCore.Shared\SLYWDotNetCore.Shared.csproj", "{0D3577B8-C16C-4AF4-8C5F-D2BBE5C995B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLYWDotNetCore.RestApiWithNLayer", "SLYWDotNetCore.RestApiWithNLayer\SLYWDotNetCore.RestApiWithNLayer.csproj", "{26BC1E55-B771-4837-A5D0-2450CD93BC87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SLYWDotNetCore.RestApiWithNLayer", "SLYWDotNetCore.RestApiWithNLayer\SLYWDotNetCore.RestApiWithNLayer.csproj", "{26BC1E55-B771-4837-A5D0-2450CD93BC87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLYWDotNetCore.ConsoleAppHttpClient", "SLYWDotNetCore.ConsoleAppHttpClient\SLYWDotNetCore.ConsoleAppHttpClient.csproj", "{03C42E93-1F9F-41B7-8704-B09A4067AAD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SLYWDotNetCore.ConsoleAppHttpClient", "SLYWDotNetCore.ConsoleAppHttpClient\SLYWDotNetCore.ConsoleAppHttpClient.csproj", "{03C42E93-1F9F-41B7-8704-B09A4067AAD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLYWDotNetCore.ConsoleAppHttpClientExamples", "SLYWDotNetCore.ConsoleAppHttpClientExamples\SLYWDotNetCore.ConsoleAppHttpClientExamples.csproj", "{A208E6A5-3A65-4206-BD5D-890C4FC4B5CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SLYWDotNetCore.ConsoleAppHttpClientExamples", "SLYWDotNetCore.ConsoleAppHttpClientExamples\SLYWDotNetCore.ConsoleAppHttpClientExamples.csproj", "{A208E6A5-3A65-4206-BD5D-890C4FC4B5CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLYWDotNetCore.ConsoleAppRestClientExamples", "SLYWDotNetCore.RestClientExamples\SLYWDotNetCore.ConsoleAppRestClientExamples.csproj", "{FCEF7216-72D7-4F98-B98D-88C9DB00A5C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SLYWDotNetCore.ConsoleAppRestClientExamples", "SLYWDotNetCore.ConsoleAppRestClientExamples\SLYWDotNetCore.ConsoleAppRestClientExamples.csproj", "{FCEF7216-72D7-4F98-B98D-88C9DB00A5C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SLYWDotNetCore.PizzaApi", "SLYWDotNetCore.PizzaApi\SLYWDotNetCore.PizzaApi.csproj", "{71775FFD-FE65-449F-A669-1509D658C303}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SLYWDotNetCore.ConsoleAppRefitExamples", "SLYWDotNetCore.ConsoleAppRefitExamples\SLYWDotNetCore.ConsoleAppRefitExamples.csproj", "{99C723FB-B6CC-4BDB-BF0B-0EF3F21C0853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLYWDotNetCore.WinFormsApp", "SLYWDotNetCore.WinFormsApp\SLYWDotNetCore.WinFormsApp.csproj", "{B1AE2FC7-E4DA-468D-A326-0A643D57E97F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +63,18 @@ Global
 		{FCEF7216-72D7-4F98-B98D-88C9DB00A5C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCEF7216-72D7-4F98-B98D-88C9DB00A5C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCEF7216-72D7-4F98-B98D-88C9DB00A5C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71775FFD-FE65-449F-A669-1509D658C303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71775FFD-FE65-449F-A669-1509D658C303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71775FFD-FE65-449F-A669-1509D658C303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71775FFD-FE65-449F-A669-1509D658C303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99C723FB-B6CC-4BDB-BF0B-0EF3F21C0853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C723FB-B6CC-4BDB-BF0B-0EF3F21C0853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C723FB-B6CC-4BDB-BF0B-0EF3F21C0853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C723FB-B6CC-4BDB-BF0B-0EF3F21C0853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1AE2FC7-E4DA-468D-A326-0A643D57E97F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1AE2FC7-E4DA-468D-A326-0A643D57E97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1AE2FC7-E4DA-468D-A326-0A643D57E97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1AE2FC7-E4DA-468D-A326-0A643D57E97F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

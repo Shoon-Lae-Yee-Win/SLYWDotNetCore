@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Common;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data.SqlClient;
 
-namespace SLYWDotNetCore.Restapi
+namespace SLYWDotNetCore.WinFormsApp
 {
     internal static class ConnectionStrings
     {
-        public static SqlConnectionStringBuilder SqlConnectionStringBuilder = new SqlConnectionStringBuilder()
+        public static SqlConnectionStringBuilder sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
         {
             DataSource = ".", // Server Name
             InitialCatalog = "DotNetTrainingBatch4", // DataBase Name
